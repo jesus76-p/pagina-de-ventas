@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+    background: #b5b4b8;
+}    
+
+.header{
+    height: 60vh;
+    background-image: linear-gradient(120deg, rgba(248, 117, 209, 0.5) 0%, rgba(167, 5, 113, 0.5) 100%),url(tienda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 10px;
+
+}
+.head{
+    position: fixed;
+    top: 0;
+    right:0;
+    width: 20vw;
+    height: 10%;
+    background-image: linear-gradient(120deg, #75c8f8ee 0%, #5c09c9ee 100%);
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    display: flex;
+    padding-top: 30px;
+}
+.navbar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.navbar a:hover {
+    background: #1cdbac;
+}
+.title {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    padding-left: 30px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #efeef3;
+    padding: 0 100px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 14rem;
+    width: 17rem;
+    background-image: linear-gradient(120deg, #5bb7f5ee 0%, #0d0486ee 100%);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #2a0274;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h2 {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #28065f;
+}
